@@ -1,0 +1,19 @@
+Generates a clickable Table of Contents in your readme.md to be viewable by services such as Github.
+
+1. Copy your repository's README.MD file into this folder.
+
+2. Then run either command in the folder:
+
+	Print to console:
+	./generate-md-toc ./readme.md
+
+	Append to same file:
+	./generate-md-toc ./readme.md >> ./readme.md
+
+3. If you had appended, open the readme.md and cut and paste the TOC at the bottom to a higher place in the MD file. Or if you had printed to console, copy and paste the TOC from the console to the readme.md. 
+
+4. Finally, copy over the readme.md to your repository, replacing the old readme.md
+
+
+This a fork of https://github.com/ekalinin/github-markdown-toc
+The only thing I (Weng) contributed was adding these instructions.
